@@ -1,0 +1,20 @@
+/* Forçar modo claro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light; /* força cores claras */
+  }
+
+  body {
+    background-color: #fdfcfa !important;
+    color: #222 !important;
+  }
+
+  .header, .services, .manicures, .blog, .booking, .footer {
+    background-color: #fff !important; /* ou tons claros do site */
+    color: #222 !important;
+  }
+
+  a, .nav a, .btn-primary, .btn-login {
+    color: #222 !important;
+  }
+}
