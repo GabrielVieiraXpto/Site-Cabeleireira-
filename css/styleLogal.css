@@ -1,0 +1,27 @@
+.location {
+  background-color: #fdfcfa; /* mesmo fundo do site */
+  /* padding: 3rem 0; */
+  text-align: center;
+}
+
+.location h2 {
+  color: #dcb89d; /* cor destaque do site */
+  margin-bottom: 2rem;
+}
+
+.map-container {
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  /* border: 5px solid #dcb89d; borda na cor do site */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  width: 100%;
+  /* height: 450px; */
+  border: 0;
+}
+
+

@@ -1,0 +1,34 @@
+.footer {
+  text-align: center;
+  background-color: #f1eee9;
+  font-size: 0.9rem;
+  color: #555;
+  padding: 1px;
+}
+
+
+.footer .contact h3 {
+  color: #dcb89d; /* cor do site */
+  margin-bottom: 0.5rem;
+}
+
+.footer .contact a {
+  color: #222;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  /* gap: 0.5rem;
+  margin: 0.25rem 0; */
+}
+
+.footer .contact a:hover {
+  color: #dcb89d; /* destaque ao passar o mouse */
+}
+
+.footer .contact i {
+  font-size: 1.2rem;
+}
+
+.icon{
+    width: 20px;
+}
